@@ -6,7 +6,7 @@ on:
       - completed
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest windows-latest
     steps:
       - uses: ZedThree/clang-tidy-review/post@v0.12.0
         with:
