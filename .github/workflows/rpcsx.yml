@@ -44,6 +44,6 @@ jobs:
     - name: Upload RPCSX
       uses: actions/upload-artifact@v3
       with:
-        name: rpcsx-bin
-        path: build/bin/*
+        name: rpcsx-bin rpcsx-exe
+        path: build/bin/exe
         if-no-files-found: error
